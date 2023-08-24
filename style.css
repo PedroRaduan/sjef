@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+/*body{
+    background-image: url('background (1).jpg');
+    background-size: cover;
+} */
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.ui{
+    font-size: 2.5rem !important;
+    width: 100vw; 
+    box-shadow: 5px 5px 5px gray;
+}
+
+.mobile{
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    width: 31vw;
+    padding: 5px;
+}
+
+.mobile p{
+    font-size: 2rem !important;
+    color: black;
+
+}
+
+.rodape{
+    position: fixed;
+    color: black;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,198,1) 100%);
+    bottom: 0;
+    width: 100vw;
+    line-height: 3;
+}
